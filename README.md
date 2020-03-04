@@ -55,6 +55,13 @@ toad.quality(data, target = 'TARGET', iv_only = True)
 toad.IV(feature, target, method = 'dt', min_samples = 0.1)
 ```
 
+## 阅读源码，先编译
+```
+# 从源码执行，先编译cpython
+
+# 执行
+python setup.py build_ext --inplace
+```
 ## Documents
 
 A simple API [docs][docs-url]
